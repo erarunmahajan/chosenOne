@@ -1,10 +1,9 @@
-## Note
+### Note
 
-# Download the project and run the npm i
-# All the packages will be installed
-# Need to install `serve -s` to run your production build
-# Third party component has been used 'React-modal'
-Complete documentation [react-modal](https://www.npmjs.com/package/react-modal)
+###### Download the project and run the npm i
+###### All the packages will be installed
+###### Need to install `serve -s` to run your production build
+###### Third party component has been used ['React-modal'](https://www.npmjs.com/package/react-modal)
 
 # Getting Started with Create React App
 
