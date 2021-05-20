@@ -1,0 +1,41 @@
+.widget{
+    background: $off-black;
+    margin-bottom: $xl-size;
+}
+.widget-header{
+    background: $blue;
+    color: $off-white;
+    display: flex;
+    justify-content: space-between;
+    padding: $m-size;
+    h3{
+        margin: 0;
+    }
+}
+.widget__message{
+    border-bottom: 1px solid lighten($off-black, 10%);
+    display: flex;
+    justify-content: space-around;
+    color: $off-white;
+    margin: 0;
+    padding: $l-size;
+}
+.widget__box{
+    max-height: 50vh;
+    overflow-y: scroll;
+    --scrollbarBG: #CFD8DC;
+    --thumbBG: #90A4AE;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+.widget__box::-webkit-scrollbar{
+    width: 11px;
+}
+.widget__box::-webkit-scrollbar-track {
+    background: var(--scrollbarBG);
+  }
+  .widget__box::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+    border: 3px solid var(--scrollbarBG);
+  }
